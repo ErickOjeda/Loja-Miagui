@@ -1,0 +1,38 @@
+body{
+    font: normal 15px Arial;
+}
+
+#itens_section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.item {
+    width: 15vw;
+    height: 45vh;
+    margin: 10px;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid darkcyan;
+    border-radius: 10px;
+}
+
+.item img {
+    width: 40%;
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.desc {
+    font-weight: bold;
+}
