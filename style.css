@@ -2,6 +2,12 @@ body{
     font: normal 15px Arial;
 }
 
+#sessao-venda{
+
+    text-align: center;
+
+}
+
 #itens_section {
     width: 100%;
     display: flex;
